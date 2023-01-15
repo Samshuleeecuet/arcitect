@@ -4,10 +4,15 @@
     border: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Container-Section */
+
 .container{
     background: rgba(255, 144, 14, 0.1);
     width: 100%;
 }
+/* Heading-Section */
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -69,6 +74,7 @@
 
 }
 
+/* New-Group-Section */
 
 .new-group{
     justify-content: center;
@@ -136,7 +142,7 @@
 }
 
 
-
+/* Features-Section */
 
 .features{
     margin: 3% 8% 2% 8%;
@@ -212,7 +218,7 @@
     }
 }
 
-
+/* Version-Section */
 
 .version{
     margin: 8% 8% 2% 8%;
@@ -326,13 +332,7 @@
     }
 }
 
-
-
-
-
-
-
-
+/* Some-fact-Section */
 
 .some-fact{
     margin: 8% 5% 2% 8%;
@@ -378,6 +378,9 @@
 .content:hover .rotate{
     transform: rotate(180deg);
 }
+
+
+/* Sponspor-Section */
 
 .sponspor{
     margin: 8% 5% 2% 8%;
@@ -472,6 +475,18 @@
 
 /* new-section */
 
+.new-section{
+    margin: 8% ;
+    text-align: center;
+    font-size: 25px;
+}
+.new-section h5{
+   line-height: 20px;
+ }
+
+
+ /* Footer-Section */
+ 
 .page-end{
  background: #FFF4E7;
 border-radius: 8px;
@@ -486,8 +501,6 @@ text-align: center;
     color: #424242;
     padding-top: 3%;
 }
-
-
 
 @media screen and (max-width: 577px) {
 
