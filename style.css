@@ -44,8 +44,10 @@
 
 
 @media screen and (max-width: 577px) {
+   
     .container{
-        width:fit-content;  
+        width: 515px;
+        height: 725.213px; 
     }
     .nav-bar{
        display: block;
@@ -61,6 +63,7 @@
        list-style: none;
        display:block;
        gap:30px;
+       width: 150px;
    } 
 
 
@@ -117,7 +120,6 @@
 
     .group-title{
         width: 80%;
-        background-color: #FD6E0A;
     }
     .group-title h3{
         font-size: 35px;
@@ -130,7 +132,6 @@
     .group-image{
         margin: 6% 8% 2% 8%;
         padding-bottom: 5%;
-        background-color: aquamarine;
     }
 }
 
@@ -140,7 +141,6 @@
 .features{
     margin: 3% 8% 2% 8%;
     display: flex;
-    
 }
 .feature-image{
     width: 60%;
@@ -160,15 +160,13 @@
     height: 600px;
     transform: translate(5%,40%);
 }
-.description-title{
-}
+
 .description-title p{
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: #131313;
     margin: 4% 0%;
-    
 }
 .feature-description button{
     margin-top: 25px;
@@ -338,9 +336,6 @@
 
 .some-fact{
     margin: 8% 5% 2% 8%;
-}
-.fact-text{
-
 }
 .fact-text h4{
     font-size: 45px;
